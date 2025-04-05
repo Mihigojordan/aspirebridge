@@ -42,7 +42,7 @@ function Navbar() {
                 About
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 to="/gallery"
                 className={({ isActive }) =>
@@ -61,7 +61,7 @@ function Navbar() {
               >
                 News & Blogs
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink
                 to="/contact"
