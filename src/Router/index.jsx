@@ -8,9 +8,12 @@ const LandingLayout = lazy(() => import("../Layout/LandingLayout.jsx"));
 const ErrorLayout = lazy(() => import("../components/ErrorLayout.jsx"));
 const Home = lazy(() => import("../pages/Home.jsx"));
 const Contact = lazy(() => import("../pages/Contact.jsx"));
+const About = lazy(() => import("../pages/About.jsx"));
+
 
 // Reusable Loader Component
 import Loader from "../components/Loading.jsx";
+
 
 // Suspense wrapper for lazy-loaded components
 const SuspenseWrapper = ({ children }) => {
@@ -55,6 +58,15 @@ const routes = [
         element: (
           <SuspenseWrapper>
             <Contact />
+          </SuspenseWrapper>
+        ),
+    
+      },
+      {
+        path: "about",
+        element: (
+          <SuspenseWrapper>
+            <About />
           </SuspenseWrapper>
         ),
     
