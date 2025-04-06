@@ -5,7 +5,7 @@ import Breakthrough from '../components/Breakthrough'
 
 function Home() {
   return (
-    <div>
+    <div className='flex flex-col gap-6'>
         <HeroPage />
         <VisionSection />
         <Breakthrough/>

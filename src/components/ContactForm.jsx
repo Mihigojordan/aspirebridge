@@ -71,7 +71,7 @@ const ContactForm = () => {
                       name="first_name"
                       id="first-name"
                       required
-                      className="block w-full text-sm px-2 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
+                      className=" bg-neutral-100 focus:bg-neutral-200 block w-full text-sm px-2 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
                       placeholder="John"
                     />
                   </div>
@@ -86,7 +86,7 @@ const ContactForm = () => {
                       name="last_name"
                       id="last-name"
                       required
-                    className="block w-full text-sm px-2 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
+                    className=" bg-neutral-100 focus:bg-neutral-200 block w-full text-sm px-2 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
                     placeholder="Doe"
                     />
                   </div>
@@ -104,7 +104,7 @@ const ContactForm = () => {
                     id="email"
                     required
                    
-                    className="block w-full text-sm px-2 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
+                    className=" bg-neutral-100 focus:bg-neutral-200 block w-full text-sm px-2 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
                      placeholder="hello@example.com"
                   />
                 </div>

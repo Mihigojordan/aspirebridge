@@ -7,7 +7,7 @@ import visionImage2 from '../assets/vison-2.jpg'
 
 function VisionSection() {
   return (
-    <div className=' p-8 bg-gray-20 ' >
+    <div className=' p-8 flex flex-col gap-10 ' >
         <VisionContent
         img={visionImage1}
         heading={"Empowering Youth & Women for a Brighter Future"}

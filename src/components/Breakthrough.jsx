@@ -13,8 +13,8 @@ export const Breakthrough = () => {
     ]
   return (
     <div className='flex items-center justify-center flex-col py-3' >
-        <div className=' flex flex-col items-center justify-center gap-3  w-8/12 p-5 ' >
-            <h1 className=' font-semibold text-2xl ' >Breaking Barriers, Building Opportunities, Transforming Lives.</h1>
+        <div className=' flex flex-col items-center justify-center gap-3 w-full text-center md:w-8/12 p-5 ' >
+            <h1 className=' font-semibold text-xl xl:text-2xl ' >Breaking Barriers, Building Opportunities, Transforming Lives.</h1>
             <p className='text-center' >Breaking Barriers, Building Opportunities, Transforming Lives.
             To equip youth and women with the knowledge, skills, and support systems necessary to break the cycle of poverty, foster entrepreneurship, and promote inclusive economic growth.</p>
         </div>
