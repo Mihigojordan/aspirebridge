@@ -2,8 +2,8 @@ import React from "react";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
 
-import image from "../assets/Fabien.jpg";
-
+import image1 from "../assets/fabien.jpg";
+import image from '../assets/image.avif'
 
 
 // React Icons
@@ -15,7 +15,7 @@ const teamMembers = [
     id: 1,
     username: "Mr. Sibomana Fabien",
     role: "Founder of AspireBridge Rwanda",
-    img:image,
+    img:image1,
   },
 
 ];

@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from "../components/Header";
 
-import image from "../assets/Fabien.jpg";
+import image from '../assets/image.avif'
 import GetInvolved from '../components/GetInvolved';
 
 function NewsAndBlog() {

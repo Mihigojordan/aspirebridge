@@ -5,7 +5,7 @@ import OurValues from '../components/OurValues'
 import WhatWedo from '../components/WhatWedo'
 import WeShall from '../components/WeShall'
 
-import image from "../assets/Fabien.jpg";
+import image from '../assets/image.avif'
 import GetInvolved from "../components/GetInvolved";
 
 
