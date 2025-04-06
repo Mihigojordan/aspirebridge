@@ -14,7 +14,7 @@ function TopHeader() {
             <MdEmail />
             <a href="mailto:ndismail007@gmail.com" className="text-gray-600 ml-2 hover:text-[#E03C33]">info@aspirebridgerwanda.org</a>
           </div>
-          <div className="my-2 md:my-0">|</div>
+          <div className="my-2 md:my-0 hidden md:block">|</div>
           <div className="flex items-center gap-1">
             <BiPhone />
             <a href="tel:123-456-7890" className="text-gray-600 ml-2 hover:text-[#E03C33]">+(250) 791 166 097</a>
