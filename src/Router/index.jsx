@@ -13,6 +13,9 @@ const About = lazy(() => import("../pages/About.jsx"));
 
 // Reusable Loader Component
 import Loader from "../components/Loading.jsx";
+import TeamMembers from "../pages/TeamMember.jsx";
+import NewsAndBlog from "../pages/NewsAndBlog.jsx";
+import OurValues from "../pages/Values.jsx";
 
 
 // Suspense wrapper for lazy-loaded components
@@ -63,10 +66,37 @@ const routes = [
     
       },
       {
+        path: "Team",
+        element: (
+          <SuspenseWrapper>
+            <TeamMembers />
+          </SuspenseWrapper>
+        ),
+    
+      },
+      {
+        path: "news-blogs",
+        element: (
+          <SuspenseWrapper>
+            <NewsAndBlog />
+          </SuspenseWrapper>
+        ),
+    
+      },
+      {
         path: "about",
         element: (
           <SuspenseWrapper>
             <About />
+          </SuspenseWrapper>
+        ),
+    
+      },
+      {
+        path: "values",
+        element: (
+          <SuspenseWrapper>
+            <OurValues/>
           </SuspenseWrapper>
         ),
     

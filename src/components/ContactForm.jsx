@@ -43,14 +43,14 @@ const ContactForm = () => {
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-center p-8 backdrop-blur-sm bg-white/30 rounded-2xl border border-white/20">
                 <MapPin className="w-16 h-16 mx-auto text-white" />
-                <h3 className="mt-4 text-2xl font-bold text-white">Our Location</h3>
-                <p className="mt-2 text-white/90">123 Business Avenue<br />New York, NY 10001</p>
+                <h3 className="mt-4 text-2xl font-bold text-white">Kigali Rwanda</h3>
+                <p className="mt-2 text-white/90">KN 78 St, Kigali</p>
               </div>
             </div>
             {/* Replace with your actual map embed */}
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215573291865!2d-73.98784492416416!3d40.74844047138961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1712345678901"
-              className="w-full h-full border-0 rounded-3xl"
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15951.569763727984!2d30.06144818839922!3d-1.9447542648495376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca6e35c1e5c15%3A0xe5f2712541cb4c24!2sNorrsken%20House%20Kigali!5e0!3m2!1sen!2srw!4v1712399153274!5m2!1sen!2srw"
+               className="w-full h-full border-0 rounded-3xl"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

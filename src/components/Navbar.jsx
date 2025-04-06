@@ -39,19 +39,30 @@ function Navbar() {
                   isActive ? 'text-blue-500' : 'text-gray-700 hover:text-blue-500'
                 }
               >
-                About
+                About Us
               </NavLink>
             </li>
-            {/* <li>
+            <li>
               <NavLink
-                to="/gallery"
+                to="/values"
                 className={({ isActive }) =>
                   isActive ? 'text-blue-500' : 'text-gray-700 hover:text-blue-500'
                 }
               >
-                Gallery
+                Our Values
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/team"
+                className={({ isActive }) =>
+                  isActive ? 'text-blue-500' : 'text-gray-700 hover:text-blue-500'
+                }
+              >
+                Our Team
+              </NavLink>
+            </li>
+          
             <li>
               <NavLink
                 to="/news-blogs"
@@ -61,7 +72,7 @@ function Navbar() {
               >
                 News & Blogs
               </NavLink>
-            </li> */}
+            </li>
             <li>
               <NavLink
                 to="/contact"
@@ -69,7 +80,7 @@ function Navbar() {
                   isActive ? 'text-blue-500' : 'text-gray-700 hover:text-blue-500'
                 }
               >
-                Contact
+                Contact Us
               </NavLink>
             </li>
           </ul>
@@ -92,11 +103,11 @@ function Navbar() {
         {/* Mobile Menu */}
         <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden bg-white shadow-lg px-5 py-3`}>
           <ul className="flex flex-col gap-5">
-            <li>
+          <li>
               <NavLink
                 to="/"
                 className={({ isActive }) =>
-                  isActive ? 'text-blue-500' : 'text-gray-700 hover:text-blue-500'
+                  isActive ? 'text-blue-500' : 'text-gray-700 hover:text-blue-200'
                 }
               >
                 Home
@@ -109,19 +120,30 @@ function Navbar() {
                   isActive ? 'text-blue-500' : 'text-gray-700 hover:text-blue-500'
                 }
               >
-                About
+                About Us
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="/gallery"
+                to="/values"
                 className={({ isActive }) =>
                   isActive ? 'text-blue-500' : 'text-gray-700 hover:text-blue-500'
                 }
               >
-                Gallery
+                Our Values
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/team"
+                className={({ isActive }) =>
+                  isActive ? 'text-blue-500' : 'text-gray-700 hover:text-blue-500'
+                }
+              >
+                Our Team
+              </NavLink>
+            </li>
+          
             <li>
               <NavLink
                 to="/news-blogs"
@@ -139,7 +161,7 @@ function Navbar() {
                   isActive ? 'text-blue-500' : 'text-gray-700 hover:text-blue-500'
                 }
               >
-                Contact
+                Contact Us
               </NavLink>
             </li>
           </ul>

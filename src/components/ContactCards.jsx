@@ -18,7 +18,7 @@ const ContactCards = () => {
     {
       icon: <MapPin size={40} className="text-white" />,
       title: "Location",
-      info: "123 Street, City",
+      info: "KN 78 St, Kigali",
       bgColor: "bg-red-500",
     },
     {

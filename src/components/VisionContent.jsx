@@ -5,12 +5,9 @@ const VisionContent = ({ img, heading, paragraph }) => {
     return (
         <div className=" flex items-center justify-center gap-12 flex-col-reverse w-full  lg:flex-row  p-0 md:p-6  " >
             <div className=" w-full xl:w-[45%] flex flex-col gap-6 " >
-                <h1 className=" font-bold text-xl lg:text-2xl xl:text-3xl " >{heading}</h1>
-                <p className=" text-lg" >{paragraph}</p>
-                <div className=" flex items-center flex-wrap  md:flex-nowrap gap-2  xl:gap-3 justify-between xl:justify-start  " >
-                    <button className={buttonStyle} >explore more</button>
-                    <button className={buttonStyle} >contact us</button>
-                </div>
+                <h1 className=" font-bold text-xl lg:text-2xl xl:text-5xl leading-15 mb-10 " >{heading}</h1>
+                <p className=" text-lg -mt-10" >{paragraph}</p>
+
             </div>
             <div className="xl:w-[45%] h-[350px] md:w-full " >
                 <img src={img} alt="" className="w-full h-full rounded-lg object-cover " />

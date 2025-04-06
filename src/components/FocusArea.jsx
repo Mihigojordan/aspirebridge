@@ -1,4 +1,6 @@
 import React from "react";
+import { FiCheckCircle } from 'react-icons/fi';
+
 
 export const FocusArea = ({ heading, listItems, img }) => {
     return (
@@ -11,20 +13,21 @@ export const FocusArea = ({ heading, listItems, img }) => {
                 />
             </div>
             <div className="w-full md:w-[45%] flex flex-col gap-5 items-start  justify-center">
-                <h1 className=" font-bold text-center text-xl lg:text-2xl xl:text-3xl ">
+                <h1 className=" font-bold  text-xl lg:text-2xl xl:text-6xl  leading-18 mb-10">
                     {heading}
                 </h1>
                 {
                     listItems && listItems.length > 0 && (
-                        <ul className="list-disc flex flex-col items-start gap-3 px-6 " >
+                        <div className="list-disc flex flex-col items-start gap-3 px-6 -mt-6 " >
                             {
                                 listItems.map((item, index) => (
-                                    <li key={index} className="text-base md:text-lg">
-                                        {item}
-                                    </li>
+                                    <p key={index} className="text-base md:text-lg flex not-first: ">
+                                              <FiCheckCircle className="text-blue-500 mt-1" />
+                                              <span className="ml-4">{item}</span>
+                                    </p>
                                 ))
                             }
-                        </ul>
+                        </div>
                     )
                 }
             </div>

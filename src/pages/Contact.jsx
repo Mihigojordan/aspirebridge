@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import image from '../assets/image.avif'
 import ContactCards from "../components/ContactCards";
 import ContactForm from "../components/ContactForm";
+import GetInvolved from "../components/GetInvolved";
 
 function Contact() {
   return (
@@ -15,6 +16,7 @@ function Contact() {
       />
       <ContactCards />
       <ContactForm />
+      <GetInvolved />
     </div>
   );
 }
