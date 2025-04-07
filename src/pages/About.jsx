@@ -1,10 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
-import image from '../assets/image.avif'
-import fabien from '../assets/fabien.jpg'
-import hold from '../assets/hold.jpeg'
-import one from '../assets/one.jpeg'
-import wfarmer from '../assets/wfarmer.jpg'
+import image from '../assets/women.jpg'
 import WhoAreWe from '../components/WhoAreWe'
 import VisionMission from '../components/VisionMission'
 

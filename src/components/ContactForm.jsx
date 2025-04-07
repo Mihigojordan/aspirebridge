@@ -44,7 +44,7 @@ const ContactForm = () => {
               <div className="text-center p-8 backdrop-blur-sm bg-white/30 rounded-2xl border border-white/20">
                 <MapPin className="w-16 h-16 mx-auto text-white" />
                 <h3 className="mt-4 text-2xl font-bold text-white">Kigali Rwanda</h3>
-                <p className="mt-2 text-white/90">KN 78 St, Kigali</p>
+                <p className="mt-2 text-white/90">KN 78 St, Kigali-Rwanda</p>
               </div>
             </div>
             {/* Replace with your actual map embed */}

@@ -23,8 +23,8 @@ export const Breakthrough = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/40 z-0"></div>
 
       {/* Foreground Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center gap-3 w-full text-center md:w-8/12 p-5 text-white">
-        <h1 className="font-semibold text-xl xl:text-3xl">
+      <div className="relative z-10 flex flex-col items-center justify-center gap-3 w-full text-center sm:w-10/12 lg:w-10/12 md:w-9/12 p-5 text-white">
+        <h1 className="font-semibold text-sm md:text-lg lg:text-lg xl:text-3xl">
           Breaking Barriers, Building Opportunities, Transforming Lives.
         </h1>
         <p className="text-center text-md">

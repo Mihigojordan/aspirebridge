@@ -6,19 +6,19 @@ const ContactCards = () => {
     {
       icon: <Phone size={40} className="text-white" />,
       title: "Phone Number",
-      info: "+123 456 7890",
+      info: "+(250) 791 166 097",
       bgColor: "bg-blue-500",
     },
     {
       icon: <Mail size={40} className="text-white" />,
       title: "Email Address",
-      info: "example@email.com",
+      info: "info@aspirebridgerwanda.org",
       bgColor: "bg-green-500",
     },
     {
       icon: <MapPin size={40} className="text-white" />,
       title: "Location",
-      info: "KN 78 St, Kigali",
+      info:"KN 78 st,  Kigali-Rwanda",
       bgColor: "bg-red-500",
     },
     {
@@ -27,7 +27,7 @@ const ContactCards = () => {
       info: (
         <>
           <span className="block">Mon – Sat: 9AM – 6PM</span>
-          <span className="block">Sunday: Closed</span>
+       
         </>
       ),
       bgColor: "bg-purple-500",

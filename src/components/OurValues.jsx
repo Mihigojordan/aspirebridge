@@ -38,23 +38,23 @@ const OurValues = () => {
   ]
 
   return (
-    <div className="flex flex-col w-[95%] m-auto lg:flex-row-reverse py-10 gap-4 justify-center items-center">
+    <div className="flex flex-col w-[98%] m-auto lg:flex-row-reverse py-10 gap-4 justify-center items-center">
     
-
-      <div className="flex flex-col gap-3 w-full lg:w-1/2 px-4 ">
-        <h1 className="text-2xl xl:text-4xl mb-4 font-bold">Our Values</h1>
-        <div className="flex flex-col gap-4">
-          {values.map((val, index) => (
-            <p key={index} className="flex items-start gap-3 text-gray-800">
-              <CheckCircle2 className="text-blue-600 mt-1" size={20} />
-              <span>
-                <span className={span}>{val.title}:</span> {val.description}
-              </span>
-            </p>
-          ))}
-        </div>
+    <div className="flex flex-col w-full lg:w-[50%] px-4">
+  <h1 className="text-2xl xl:text-4xl font-bold mb-4">Our Values</h1>
+  <div className="flex flex-col gap-2"> {/* Added gap for spacing */}
+    {values.map((val, index) => (
+      <div key={index} className="flex items-start text-gray-800 mb-2">
+        {/* Fixed size icon with margin */}
+        <CheckCircle2 className="text-blue-600 w-6 h-6 mt-0.5 flex-shrink-0 mr-2" />
+        <span className="flex-1 capitalize">
+          <span className={span}>{val.title}:</span> {val.description}
+        </span>
       </div>
-      <div className="w-full lg:w-1/2 h-full">
+    ))}
+  </div>
+</div>
+      <div className="w-full lg:w-[45%] h-full">
         <img
           src={watering}
           alt="watering"

@@ -1,10 +1,10 @@
 import React from "react";
-import defaultBackground from '../assets/image.avif';
+import defaultBackground from '../assets/women.jpg';
 
 const Header = ({ title, linkTitle, linkHref}) => {
   return (
     <div
-      className="relative w-full h-60 flex items-center justify-center text-white text-center"
+      className="relative w-full h-68 flex items-center justify-center text-white text-center"
       style={{
         backgroundImage: `url(${defaultBackground})`,
         backgroundSize: "cover",

@@ -37,7 +37,7 @@ const TeamMembers = () => {
           >
             <img
               src={member.img}
-              className="w-3/3 object-cover rounded-md aspect-auto"
+              className="w-2/3 object-cover rounded-full aspect-auto"
               alt={member.username}
             />
             <Link to={`/team/member/${member.id}`}>
@@ -45,7 +45,7 @@ const TeamMembers = () => {
                 {member.username}
               </h1>
             </Link>
-            <p className="text-gray-600 text-sm uppercase">{member.role}</p>
+            <p className="text-gray-600 text-sm capitalize">{member.role}</p>
             <div className="flex w-full items-center justify-center gap-3 mt-3">
               <div className="p-2 rounded-full bg-white text-green-500">
                 <FaWhatsapp className="w-5 h-5" />

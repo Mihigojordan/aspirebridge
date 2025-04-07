@@ -15,7 +15,8 @@ function VisionSection() {
         />
         <FocusArea
         img={visionImage2}
-        heading={"AspireBridge Rwanda Focus Areas"}
+        heading={"AspireBridge Rwanda"}
+        headings={"our Focus area"}
         listItems={[
           "Youth Empowerment",
           "Women’s Economic Empowerment",
