@@ -35,6 +35,7 @@ const OurValues = () => {
       description:
         'We are committed to fairness and equal opportunities for all, regardless of gender, background, disability or social status.',
     },
+  
   ]
 
   return (
@@ -47,7 +48,7 @@ const OurValues = () => {
       <div key={index} className="flex items-start text-gray-800 mb-2">
         {/* Fixed size icon with margin */}
         <CheckCircle2 className="text-blue-600 w-6 h-6 mt-0.5 flex-shrink-0 mr-2" />
-        <span className="flex-1 capitalize">
+        <span className="flex-1">
           <span className={span}>{val.title}:</span> {val.description}
         </span>
       </div>

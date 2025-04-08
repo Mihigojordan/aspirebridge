@@ -10,8 +10,8 @@ const ContactForm = () => {
     e.preventDefault();
     
     emailjs.sendForm(
-      'YOUR_SERVICE_ID', 
-      'YOUR_TEMPLATE_ID', 
+      'service_kpwmm5i', 
+      'b7jOaP947bfDLqXuV', 
       form.current, 
       'YOUR_PUBLIC_KEY'
     )
