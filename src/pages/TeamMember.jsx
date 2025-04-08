@@ -7,7 +7,7 @@ import image from '../assets/image.avif'
 
 
 // React Icons
-import { FaWhatsapp, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaWhatsapp, FaTwitter, FaInstagram,FaFacebook,FaLinkedin } from "react-icons/fa";
 import GetInvolved from "../components/GetInvolved";
 
 const teamMembers = [
@@ -47,14 +47,22 @@ const TeamMembers = () => {
             </Link>
             <p className="text-gray-600 text-sm capitalize">{member.role}</p>
             <div className="flex w-full items-center justify-center gap-3 mt-3">
+             
+            <div className="p-2 rounded-full bg-white text-blue-500">
+                <FaFacebook className="w-5 h-5" />
+              </div>
               <div className="p-2 rounded-full bg-white text-green-500">
                 <FaWhatsapp className="w-5 h-5" />
               </div>
-              <div className="p-2 rounded-full bg-white text-blue-400">
+              <div className="p-2 rounded-full bg-white text-black-400">
                 <FaTwitter className="w-5 h-5" />
               </div>
               <div className="p-2 rounded-full bg-white text-pink-500">
                 <FaInstagram className="w-5 h-5" />
+              </div>
+            
+              <div className="p-2 rounded-full bg-white text-blue-500">
+                <FaLinkedin className="w-5 h-5" />
               </div>
             </div>
           </div>
