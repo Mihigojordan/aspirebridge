@@ -28,7 +28,7 @@ export const Breakthrough = () => {
           Breaking Barriers, Building Opportunities, Transforming Lives.
         </h1>
         <p className="text-center text-md">
-          To equip youth and women with the knowledge, skills, and support systems necessary to break the cycle of poverty, foster entrepreneurship, and promote inclusive economic growth.
+          To equip youth and women with the knowledge, skills and support systems necessary to break the cycle of poverty, foster entrepreneurship and promote inclusive economic growth.
         </p>
       </div>
     </div>

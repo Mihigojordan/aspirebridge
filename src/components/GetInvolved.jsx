@@ -21,7 +21,7 @@ const GetInvolved = () => {
                         </div>
                         <div className="md:flex items-center">
                             <CheckCircle2 className="text-xl mr-2 text-blue-500" />
-                            <p className={span}> Partnership: </p> Collaborate with businesses, NGOs, and Churches.
+                            <p className={span}> Partnership: </p> Collaborate with businesses, NGOs and Churches.
                         </div>
                     </div>
                     <div className="flex gap-2 flex-col">

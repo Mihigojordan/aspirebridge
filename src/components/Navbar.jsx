@@ -17,7 +17,7 @@ function Navbar() {
         <div className="flex items-center justify-between px-5 md:px-10 py-4">
           {/* Logo */}
           <div className="logo">
-            <img src={logo} alt="Logo" className="w-28 h-16" style={{objectFit:"cover"}}/>
+            <img src={logo} alt="Logo" className="w-28 h-20" />
           </div>
 
           {/* Desktop Menu */}

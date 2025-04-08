@@ -18,7 +18,7 @@ function Footer() {
                    
           <h2 className="text-2xl font-bold mb-2 leading-10">AspireBridge Rwanda</h2>
           <p className='pb-4'>
-                     At AspireBridge Rwanda, we are driven by a simple yet powerful belief: everyone deserves the opportunity to live with dignity, hope, and purpose.
+                     At AspireBridge Rwanda, we are driven by a simple yet powerful belief: everyone deserves the opportunity to live with dignity, hope and purpose.
                      </p>
           <p>Thank you for visiting our site. We appreciate your support in empowering youth and women. </p>
         </div>
@@ -55,7 +55,7 @@ function Footer() {
           <p className="text-sm italic mb-2 leading-6">
   Stay connected and never miss an update!<br />
   Follow us on social media for our latest projects, news, and inspiring stories.<br />
-  Get exclusive behind-the-scenes content, and special announcements.<br />
+  Get exclusive behind-the-scenes content and special announcements.<br />
 
 </p>
 

@@ -13,10 +13,10 @@ export const FocusArea = ({ heading,headings, listItems, img }) => {
                 />
             </div>
             <div className="w-full md:w-[50%] flex flex-col gap-5 items-start  justify-center">
-                <h1 className=" font-bold  text-md lg:text-2xl xl:text-4xl ">
+                <h1 className=" font-bold  text-md lg:text-2xl xl:text-3xl ">
                     {heading}
                 </h1>
-                <h1 className=" font-bold  text-md  lg:text-2xl xl:text-4xl mb-6 capitalize ">
+                <h1 className=" font-bold  text-md  lg:text-2xl xl:text-3xl mb-6 capitalize ">
                     {headings}
                 </h1>
                 {

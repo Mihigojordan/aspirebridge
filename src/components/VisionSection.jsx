@@ -11,7 +11,7 @@ function VisionSection() {
         <VisionContent
         img={visionImage1}
         heading={"Empowering Youth & Women for a Brighter Future"}
-        paragraph={"At AspireBridge Rwanda we are committed to reducing poverty by equipping young people and women with the skills, resources, and opportunities they need to thrive. Through education, entrepreneurship, and advocacy, we are bridging the gap between potential and success."}
+        paragraph={"At AspireBridge Rwanda we are committed to reducing poverty by equipping Young people and women with the skills, resources and opportunities they Need to thrive. Through education, entrepreneurship and advocacy, we are Bridging the gap between potential and success."}
         />
         <FocusArea
         img={visionImage2}
