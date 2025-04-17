@@ -14,7 +14,7 @@ const teamMembers = [
   {
     id: 1,
     username: "Mr. Sibomana Fabien",
-    role: "Founder of AspireBridge Rwanda",
+    role: "Executive Director of AspireBridge Rwanda",
     img:image1,
   },
 
