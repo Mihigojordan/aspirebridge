@@ -271,7 +271,7 @@ const blogs = [
       Rwanda remains committed to nurturing ideas and turning them into impactful realities.
     </p>,
 
-    <h2 key="session-title" className="text-xl font-semibold mt-10 mb-4">Session Highlights</h2>,
+    <h2 key="session-title" className="text-xl font-semibold mt-10 mb-4">Session Highlight</h2>,
 
     <div key="session-grid" className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
       <img src={Fblog5} alt="Session 1" className="rounded-lg shadow-md w-full h-40 object-cover" />
