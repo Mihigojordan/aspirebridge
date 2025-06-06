@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 /* eslint-disable react-refresh/only-export-components */
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import { lazy, Suspense, useState, useEffect } from "react";
@@ -9,6 +8,7 @@ const ErrorLayout = lazy(() => import("../components/ErrorLayout.jsx"));
 const Home = lazy(() => import("../pages/Home.jsx"));
 const Contact = lazy(() => import("../pages/Contact.jsx"));
 const About = lazy(() => import("../pages/About.jsx"));
+const NewsAndBlogDetail = lazy(()=>import("../pages/NewsAndBlogDetail.jsx"));
 
 
 // Reusable Loader Component
@@ -83,6 +83,16 @@ const routes = [
         ),
     
       },
+         {
+        path: "/news-blogs/:id",
+        element: (
+          <SuspenseWrapper>
+            <NewsAndBlogDetail />
+          </SuspenseWrapper>
+        ),
+    
+      },
+
       {
         path: "about",
         element: (

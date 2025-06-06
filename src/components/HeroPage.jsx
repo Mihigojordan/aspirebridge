@@ -20,13 +20,13 @@ function HeroPage() {
     </p>
         <div className="button-section space-x-4">
           <Link to="/about">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded cursor-pointer">
               Explore More
             </button>
           </Link>
-          <Link to="/">
-            <button className=" border-3 border-blue-500 hover:bg-blue-500 hover:border-0 text-white font-bold py-2 px-6 rounded">
-              View Our Gallery
+          <Link to="/news-blogs">
+            <button className=" border-3 border-blue-500 hover:bg-blue-500 hover:border-0 text-white font-bold  cursor-pointer py-2 px-6 rounded">
+              View News And Blogs
             </button>
           </Link>
         </div>

@@ -24,7 +24,7 @@ const VisionMission = () => {
                 <div className="flex flex-col gap-3 pb-5">
 
                     <h1 className=' sm:text-md md:text-4xl font-semibold '> Our Mission </h1>
-                    <p className='text-xl leading-10 '>  To empower youth and women by providing education, skills training, entrepreneurship advocacy and economic opportunities that foster independence and long-term financial stability we are bridging the gap between potential and success for promoting inclusive economic growth.
+                    <p className='text-xl leading-10 '>  To empower youth and women by providing education, entrepreneurship skills, advocacy and economic opportunities that foster independence and long-term financial stability we are bridging the gap between potential and success for promoting inclusive economic growth.
                     </p>
                 </div>
                 

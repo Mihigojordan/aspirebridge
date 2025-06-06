@@ -1,7 +1,5 @@
 import { BiPhone } from 'react-icons/bi';
-import { BsInstagram, BsTwitterX } from 'react-icons/bs';
-import { FaFacebookSquare } from "react-icons/fa";
-import { LiaLinkedin } from 'react-icons/lia';
+import { FaFacebook,FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
 function TopHeader() {
@@ -23,11 +21,10 @@ function TopHeader() {
 
         {/* Social Media Icons */}
         <div className="flex gap-4 text-lg text-blue-500 mt-2 md:mt-0">
-          <a href="#" className="text-gray-600 hover:text-[#E03C33] text-lg"><FaFacebookSquare /></a>
-          <a href="#" className="text-gray-600 hover:text-[#E03C33] text-md"><BsTwitterX /></a>
-          <a href="#" className="text-gray-600 hover:text-[#E03C33]"><LiaLinkedin /></a>
-          <a href="#" className="text-gray-600 hover:text-[#E03C33]"><BsInstagram /></a>
-        </div>
+               <a href="https://www.facebook.com/people/AspireBridge-Rwanda/61576748455206" className="text-gray-500 hover:text-blue-700"><FaFacebook size={20} /></a>
+               <a href="https://www.linkedin.com/in/aspirebridge-rwanda-999389367" className="text-gray-500 hover:text-blue-700"><FaInstagram size={20} /></a>
+               <a href="https://www.instagram.com/aspirebridgerwanda" className="text-gray-500 hover:text-blue-700"><FaLinkedin size={20} /></a>
+               </div>
       </div>
     </div>
   );

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import logo from '../assets/logo.jpg';
+import { FaFacebook,FaInstagram, FaLinkedin } from 'react-icons/fa';
 import SubscribeForm from './SubscribeForm';
 
 function Footer() {
@@ -60,10 +59,9 @@ function Footer() {
 </p>
 
           <div className="flex space-x-4">
-            <p href="#" className="text-gray-500 hover:text-blue-700"><FaFacebook size={20} /></p>
-            <p href="#" className="text-gray-500 hover:text-blue-700"><FaTwitter size={20} /></p>
-            <p href="#" className="text-gray-500 hover:text-blue-700"><FaInstagram size={20} /></p>
-            <p href="#" className="text-gray-500 hover:text-blue-700"><FaLinkedin size={20} /></p>
+            <a href="https://www.facebook.com/people/AspireBridge-Rwanda/61576748455206" className="text-gray-500 hover:text-blue-700"><FaFacebook size={20} /></a>
+            <a href="https://www.linkedin.com/in/aspirebridge-rwanda-999389367" className="text-gray-500 hover:text-blue-700"><FaInstagram size={20} /></a>
+            <a href="https://www.instagram.com/aspirebridgerwanda" className="text-gray-500 hover:text-blue-700"><FaLinkedin size={20} /></a>
           </div>
         </div>
       </div>

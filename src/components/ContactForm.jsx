@@ -15,10 +15,10 @@ const ContactForm = () => {
       form.current, 
       'YOUR_PUBLIC_KEY'
     )
-    .then((result) => {
+    .then(() => {
       toast.success('Message sent successfully!');
       form.current.reset();
-    }, (error) => {
+    }, () => {
       toast.error('Failed to send message. Please try again.');
     });
   };
@@ -72,7 +72,7 @@ const ContactForm = () => {
                       id="first-name"
                       required
                       className=" bg-neutral-100 focus:bg-neutral-200 block w-full text-sm px-2 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
-                      placeholder="John"
+                    
                     />
                   </div>
                 </div>
@@ -87,7 +87,7 @@ const ContactForm = () => {
                       id="last-name"
                       required
                     className=" bg-neutral-100 focus:bg-neutral-200 block w-full text-sm px-2 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
-                    placeholder="Doe"
+            
                     />
                   </div>
                 </div>
@@ -105,7 +105,7 @@ const ContactForm = () => {
                     required
                    
                     className=" bg-neutral-100 focus:bg-neutral-200 block w-full text-sm px-2 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
-                     placeholder="hello@example.com"
+              
                   />
                 </div>
               </div>
@@ -121,7 +121,7 @@ const ContactForm = () => {
                     rows={5}
                     required
                     className="block w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200"
-                    placeholder="Your message here..."
+    
                     defaultValue={''}
                   />
                 </div>
