@@ -35,6 +35,16 @@ import Fblog7 from '../assets/4blog7.jpg';
 import Fblog8 from '../assets/4blog8.jpg';
 import Fblog9 from '../assets/4blog9.jpg';
 
+import Fblog10 from '../assets/4blog8.jpg';
+import Fblog11 from '../assets/4blog9.jpg';
+import Fblog12 from '../assets/4blog8.jpg';
+import Fblog13 from '../assets/next1.jpg';
+import Fblog14 from '../assets/next2.jpg';
+import Fblog15 from '../assets/edit.jpg';
+import Fblog16 from '../assets/edit2.jpg';
+
+
+
 
 
 
@@ -278,7 +288,52 @@ const blogs = [
 
       <img src={Fblog7} alt="Session 3" className="rounded-lg shadow-md w-full h-40 object-cover" />
       <img src={Fblog8} alt="Session 4" className="rounded-lg shadow-md w-full h-40 object-cover" />
-    </div>
+    </div>,
+
+  
+    <p key="p7" className="mt-10">
+      <strong>The journey didn’t end there.</strong> The following day, we continued the training with a deeper dive into the real-world application of the Business Model Canvas. Participants returned energized and ready to refine their models with new perspectives and peer feedback.
+    </p>,
+
+    <p key="p8">
+      The session emphasized <strong>validation and iteration</strong>. Participants presented their business models to small groups, received constructive feedback, and iterated on their canvas to reflect improved ideas and stronger value propositions.
+    </p>,
+
+    <div key="images-next-day" className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+      <img src={Fblog13} alt="Next Day Workshop 1" className="rounded-lg shadow-md w-full h-92 object-cover" />
+      <img src={Fblog14} alt="Next Day Workshop 2" className="rounded-lg shadow-md w-full h-92 object-cover" />
+    </div>,
+
+    <h2 key="group-work-title" className="text-xl font-semibold mt-6 mb-2">Collaborative Learning in Action</h2>,
+
+    <p key="p9">
+      Groups worked together to simulate customer interviews, map out user journeys, and rethink their revenue models. This hands-on approach helped deepen their understanding of customer needs and business sustainability.
+    </p>,
+
+    <ul key="next-day-points" className="list-disc list-inside space-y-2 mb-6">
+      <li><strong>Prototype Testing:</strong> Simulated real-life use of the proposed solution for better market fit.</li>
+      <li><strong>Peer-to-Peer Critiques:</strong> Open feedback sessions that boosted model clarity and confidence.</li>
+      <li><strong>Pitch Practice:</strong> Participants practiced concise and compelling presentations of their models.</li>
+    </ul>,
+
+    <p key="p10">
+      By the end of the second day, many participants had transformed rough concepts into polished business ideas, ready for incubation or community piloting.
+    </p>,
+
+    <div key="images-final" className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+      <img src={Fblog15} alt="Presentation 1" className="rounded-lg shadow-md w-full h-92 object-cover" />
+      <img src={Fblog16} alt="Group Collaboration" className="rounded-lg shadow-md w-full h-92 object-cover" />
+    </div>,
+
+    <p key="p11" className="italic">
+      “After presenting my idea and getting feedback, I feel more prepared than ever. This training showed me I don’t have to wait for perfect conditions—I can start today.” — Participant reflection
+    </p>,
+
+    <p key="p12">
+      AspireBridge Rwanda’s commitment to hands-on, inclusive, and practical training continues to inspire youth and women to dream boldly and execute smartly.
+    </p>,
+
+    
   ]
 }
 

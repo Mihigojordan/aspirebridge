@@ -10,7 +10,7 @@ const WhoAreWe = () => {
         <div className=" p-6 md:w-[45%] leading-10 ">
           <h1 className="text-2xl sm:text-3xl font-semibold xl:text-4xl mb-5">About Us</h1>
           <p className='text-lg leading-11 '>
-            At <span className="font-semibold">AspireBridge Rwanda</span>, we believe that every young person and woman deserves the opportunity to break free from poverty and build a better future by empowering vulnerable youth and women through education, entrepreneurship, and sustainable development programs.
+            At <span className="font-semibold">AspireBridge Rwanda</span>, we believe that every young person and woman deserves the opportunity to break free from poverty and build a better future by empowering vulnerable youth and women through education, entrepreneurship and sustainable development programs.
           </p>
         </div>
         <div className=" p-2 md:w-[45%] h-[300px]">

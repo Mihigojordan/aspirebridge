@@ -6,7 +6,7 @@ const WeShall = () => {
     'Equip them with the knowledge to manage finances and access small business funding.',
     'Help young people in accessing the skills to improve their future prospects.',
     'Connect youth with mentors who guide them toward professional and personal success.',
-    'Work to create economic opportunities through agricultural programs, cooperatives and social enterprises.',
+    'Work to create economic opportunities through agricultural and farming programs, cooperatives and social enterprises.',
     'Create a society where women and youth can live with dignity, security and equal opportunities with no gender violence.',
   ]
 
