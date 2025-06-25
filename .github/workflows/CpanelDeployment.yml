@@ -1,4 +1,4 @@
-name: Deploy Frontend & Backend via FTP
+name: Deploy Frontend via FTP
 
 on:
   push:
@@ -13,31 +13,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # === Frontend Deployment ===
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: '20'
 
-      - name: Install frontend dependencies
-        run: |
-          cd /
-          npm install
+      - name: Install dependencies
+        run: npm install
 
       - name: Build frontend
-        run: |
-          cd /
-          npm run build
+        run: npm run build
 
-      # === Upload Frontend via FTP ===
       - name: Deploy Frontend to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ftp.aspirebridgerwanda.org
           username: main@aspirebridgerwanda.org
-          password: Aspire12@
+          password: ${{ secrets.FTP_PASSWORD }}
           port: 21
-          local-dir: /
-          server-dir: /
-
-  
+          local-dir: dist     # <-- change this if your build output folder is different
+          server-dir: /        # your target FTP folder
