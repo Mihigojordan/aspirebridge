@@ -31,5 +31,5 @@ jobs:
           username: main@aspirebridgerwanda.org
           password: Aspire12@
           port: 21
-          local-dir: dist     # <-- change this if your build output folder is different
+          local-dir: dist/     # <-- change this if your build output folder is different
           server-dir: /        # your target FTP folder
