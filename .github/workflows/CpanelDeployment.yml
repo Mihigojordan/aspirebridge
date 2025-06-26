@@ -1,3 +1,4 @@
+
 name: Deploy Frontend via FTP
 
 on:
@@ -29,7 +30,7 @@ jobs:
         with:
           server: ftp.aspirebridgerwanda.org
           username: main@aspirebridgerwanda.org
-          password: ${{ secrets.FTP_PASSWORD }}
+          password: Aspire12@
           port: 21
-          local-dir: dist     # <-- change this if your build output folder is different
+          local-dir: dist/     # <-- change this if your build output folder is different
           server-dir: /        # your target FTP folder
