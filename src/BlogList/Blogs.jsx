@@ -340,78 +340,65 @@ const blogs = [
 
     
   ]
-},
-{
+},{
   id: '5',
-  title: 'Empowering Women and Youth Through Small Livestock Farming',
+  title: 'Empowering Women and Youth Through Pig and Chicken Farming',
   image: Ablog1,
   description:
-    'AspireBridge Rwanda is equipping women and youth with practical skills in small livestock farming—turning local resources into profitable ventures and pathways to self-reliance.',
+    'AspireBridge Rwanda is training women and youth in profitable pig and poultry farming—transforming local knowledge into sustainable income and self-reliance.',
   fullContent: [
     <p key="p1">
-      At <strong>AspireBridge Rwanda</strong>, we believe in creating lasting change by empowering communities with practical, income-generating skills.
-      Our recent training initiative focused on <strong>small livestock farming</strong>, targeting young people and women in underserved areas—
-      helping them transform limited resources into sustainable livelihoods.
+      At <strong>AspireBridge Rwanda</strong>, we are dedicated to building sustainable futures by equipping communities—especially women and youth—with practical, income-generating skills. Our latest training series focused on <strong>pig and chicken farming</strong>, offering hands-on experience to help participants turn everyday opportunities into thriving agribusiness ventures.
     </p>,
 
     <p key="p2">
-      The training introduced participants to the basics of raising <strong>rabbits, goats, and chickens</strong>—showing how even small-scale livestock
-      farming can be a viable business. Many had never considered animal husbandry as a serious opportunity, but they quickly discovered how
-      accessible, low-cost, and profitable it can be with the right guidance.
+      Participants were introduced to the fundamentals of raising <strong>pigs and chickens</strong>, including housing, feeding, breeding, and health management. The training highlighted how small-scale poultry and piggery projects, when well-managed, can become <strong>highly profitable with low startup costs</strong>. For many, this was the first step toward seeing farming not just as survival, but as a smart business strategy.
     </p>,
 
     <div key="images-1" className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
-      <img src={Ablog5} alt="Livestock Training 1" className="rounded-lg shadow-md w-full h-72 object-cover" />
-      <img src={Ablog2} alt="Livestock Training 2" className="rounded-lg shadow-md w-full h-72 object-cover" />
+      <img src={Ablog5} alt="Pig and Chicken Training 1" className="rounded-lg shadow-md w-full h-72 object-cover" />
+      <img src={Ablog2} alt="Pig and Chicken Training 2" className="rounded-lg shadow-md w-full h-72 object-cover" />
     </div>,
 
     <p key="p3">
-      More than just technical know-how, the training emphasized a shift in mindset—encouraging participants to see opportunity in their environment
-      and to embrace <strong>innovation, resilience, and self-confidence</strong>. They were reminded that you don’t need large capital to start a business—
-      just the courage to take the first step.
+      The program didn’t just teach farming techniques—it encouraged a mindset of <strong>entrepreneurship, innovation, and resilience</strong>. Participants were challenged to view their surroundings differently—to see pigs and chickens not as everyday animals, but as valuable assets for income, food security, and community growth.
     </p>,
 
     <p key="p4">
-      We also explored ways to generate income from livestock beyond just sales. Participants learned how to earn from <strong>eggs, manure, breeding, and by-products</strong>,
-      turning animal care into a diversified source of income that can grow over time with consistency and smart planning.
+      Beyond meat production, participants learned about multiple income streams from pigs and poultry: <strong>eggs, manure for fertilizer, breeding stock, piglets, and value-added products like smoked meat or packaged eggs</strong>. This approach enables farmers to maximize profits while building diverse, resilient businesses.
     </p>,
 
     <div key="images-2" className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
-      <img src={Ablog3} alt="Participants in Action 1" className="rounded-lg shadow-md w-full h-72 object-cover" />
-      <img src={Ablog4} alt="Participants in Action 2" className="rounded-lg shadow-md w-full h-72 object-cover" />
+      <img src={Ablog3} alt="Hands-on Training 1" className="rounded-lg shadow-md w-full h-72 object-cover" />
+      <img src={Ablog4} alt="Hands-on Training 2" className="rounded-lg shadow-md w-full h-72 object-cover" />
     </div>,
 
     <p key="p5">
-      A vital part of the training was on <strong>group savings and cooperative business models</strong>. Participants formed small groups to practice
-      pooling resources, creating support systems, and planning joint ventures. This collective approach builds trust, accountability,
-      and a strong foundation for long-term success.
+      A key element of the training was promoting <strong>cooperative models and group savings</strong>. Participants formed savings groups, developed business plans, and explored ways to support each other through shared resources and community accountability—laying the groundwork for collective success.
     </p>,
 
     <p key="p6" className="italic">
-      “This experience changed my view. I now understand that raising animals isn’t just for food—it’s a business that can uplift families and communities.
-      I feel ready to start and make a difference.” — Participant testimonial
+      “I used to think raising chickens was only for food. Now I know it can be a business that provides for my family and helps others too.” — Participant testimonial
     </p>,
 
     <p key="p7">
-      The training concluded with participants developing their own business plans and presenting them for feedback. The energy in the room was electric—
-      filled with ambition, clarity, and hope. Every participant left with a clear path forward and a renewed belief in their potential.
+      The sessions ended with powerful presentations of participant-led business plans. Each idea reflected creativity, determination, and a strong belief in what’s possible. As they left, every trainee carried more than knowledge—they carried hope, strategy, and a sense of ownership over their future.
     </p>,
 
     <p key="p8">
-      At AspireBridge Rwanda, we remain committed to supporting youth and women in building <strong>self-sustaining businesses from local opportunities</strong>.
-      Because true empowerment starts with knowledge, support, and the confidence to act.
+      AspireBridge Rwanda remains committed to building <strong>self-sustaining livelihoods</strong> through agriculture. With each initiative, we aim to spark transformation—because when women and youth are empowered with skills and confidence, entire communities rise.
     </p>,
-        <h2 key="session-title" className="text-xl font-semibold mt-10 mb-4">Session Highlights</h2>,
-      <div key="session-grid" className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
-        <img src={Ablog2} alt="Session 1" className="rounded-lg shadow-md w-full h-40 object-cover" />
-        <img src={Ablog3} alt="Session 2" className="rounded-lg shadow-md w-full h-40 object-cover" />
-        <img src={Ablog5} alt="Session 3" className="rounded-lg shadow-md w-full h-40 object-cover" />
-        <img src={Ablog3} alt="Session 4" className="rounded-lg shadow-md w-full h-40 object-cover" />
-      </div>,
 
- 
+    <h2 key="session-title" className="text-xl font-semibold mt-10 mb-4">Session Highlights</h2>,
+    <div key="session-grid" className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+      <img src={Ablog2} alt="Poultry Training" className="rounded-lg shadow-md w-full h-40 object-cover" />
+      <img src={Ablog3} alt="Pig Farming Workshop" className="rounded-lg shadow-md w-full h-40 object-cover" />
+      <img src={Ablog5} alt="Team Activity" className="rounded-lg shadow-md w-full h-40 object-cover" />
+      <img src={Ablog3} alt="Business Planning Session" className="rounded-lg shadow-md w-full h-40 object-cover" />
+    </div>,
   ],
 }
+
 
 ];
 
