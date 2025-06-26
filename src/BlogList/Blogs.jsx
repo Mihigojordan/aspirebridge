@@ -43,7 +43,7 @@ import Fblog14 from '../assets/next2.jpg';
 import Fblog15 from '../assets/edit.jpg';
 import Fblog16 from '../assets/edit2.jpg';
 
-import Ablog1 from '../assets/A1.jpg';
+import Ablog1 from '../assets/a1.jpg';
 import Ablog2 from '../assets/A2.jpg';
 import Ablog3 from '../assets/A3.jpg';
 import Ablog4 from '../assets/A4.jpg';
