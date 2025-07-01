@@ -9,10 +9,10 @@ import heroBackground from '../assets/vison-2.jpg';
 export const Breakthrough = () => {
     const images = [image, image2, image3, image4];
     const stats = [
-        { value: '500+', label: 'Youth Empowered' },
+        { value: '100+', label: 'Youth Empowered' },
         { value: '85%', label: 'Success Rate' },
-        { value: '30+', label: 'Communities Reached' },
-        { value: '100+', label: 'Businesses Started' }
+        { value: '200+', label: 'Communities Reached' },
+
     ];
     
     const programs = [
@@ -35,7 +35,7 @@ export const Breakthrough = () => {
     ];
 
     return (
-        <div className="bg-gradient-to-r from-blue-400 to-purple-400 transition-all duration-300">
+        <div className="inset-0 bg-gradient-to-br from-gray-600 via-gray-900/80 to-gray-600 transition-all duration-300">
             {/* Hero Section */}
             <div className="relative w-full min-h-[60vh] flex items-center justify-center bg-fixed bg-cover bg-center"
                 style={{ backgroundImage: `url(${heroBackground})` }}>
@@ -66,7 +66,7 @@ export const Breakthrough = () => {
                     <h2 className="text-center text-3xl font-extrabold text-white sm:text-4xl mb-12">
                         Our Impact in Numbers
                     </h2>
-                    <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+                    <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                         {stats.map((stat, index) => (
                             <div key={index} className="bg-white/20 rounded-xl p-6 text-center backdrop-blur-sm border border-white/30">
                                 <p className="text-5xl font-bold text-white">{stat.value}</p>

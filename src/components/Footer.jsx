@@ -20,7 +20,7 @@ function Footer() {
   ];
 
   const contactInfo = [
-    { icon: <MdPhone className="mr-2" />, text: "+250 123 456 789" },
+    { icon: <MdPhone className="mr-2" />, text: "+(250) 791 166 097" },
     { icon: <MdEmail className="mr-2" />, text: "info@aspirebridgerwanda.org" },
     { icon: <MdLocationOn className="mr-2" />, text: "Kigali, Rwanda" }
   ];

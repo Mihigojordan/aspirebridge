@@ -85,7 +85,8 @@ function VisionContent({ img, heading, paragraph }) {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <div className="w-2 h-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-pulse"></div>
-              <span className="text-sm font-medium text-blue-600 uppercase tracking-wider">Our Vision</span>
+              <span className="text-sm font-medium text-blue-600 uppercase tracking-wider">
+AspireBridge Rwanda</span>
             </div>
             
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 leading-tight">
@@ -255,7 +256,7 @@ function VisionSection() {
           listItems={[
             "Youth Empowerment",
             "Women's Economic Empowerment", 
-            "Advocacy Against Gender-Based Violence",
+            "Advocacy and fighting Against Gender-Based Violence",
             "Education & Training",
           ]}
         />

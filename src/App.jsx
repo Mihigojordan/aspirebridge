@@ -6,8 +6,6 @@ import { Helmet } from "react-helmet"; // Import Helmet for SEO
 import ErrorBoundary from "./Error/ErrorBoundary";
 import ReactGA from "react-ga4";
 import Loader from "./components/Loading";
-// import { AuthProvider } from './context/AuthContext';
-import BotpressChat from "./botpressChat"; // ✅ Add this line
 
 function App() {
   const schemaMarkup = {
@@ -101,8 +99,7 @@ function App() {
 
       <Suspense fallback={<Loader />} >
         <RouterProvider router={router} />
-           <BotpressChat /> {/* ✅ Add the chatbot here so it's globally accessible */}
-      
+   
       </Suspense>
     </ErrorBoundary>
   );

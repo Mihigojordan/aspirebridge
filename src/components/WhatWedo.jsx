@@ -26,7 +26,7 @@ const WhatWedo = () => {
       items: [
         "Leadership training",
         "Career development & mentorship",
-        "Education",
+        "Education & Training",
         "Entrepreneurship and skills training",
       ],
     },
@@ -35,9 +35,8 @@ const WhatWedo = () => {
       items: [
         "Financial literacy & entrepreneurship",
         "Health and wellness",
-        "Advocacy Against Gender-Based Violence",
-        
-          "Community development projects"
+        "Advocacy and fighting Against Gender-Based Violence",
+        "Community project Development"
       ],
     },
   ];
@@ -128,7 +127,7 @@ const WhatWedo = () => {
                       item && (
                         <div 
                           key={idx} 
-                          className="flex items-start gap-5 p-3 rounded-lg hover:bg-gray-50 transition-all duration-300 group/item"
+                          className="flex items-start gap-6 p-3 rounded-lg hover:bg-gray-50 transition-all duration-300 group/item"
                         >
                           <div className="relative mt-0.5">
                             <div className={`absolute -inset-1 bg-gradient-to-r ${

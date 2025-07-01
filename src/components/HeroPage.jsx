@@ -80,8 +80,8 @@ function HeroPage() {
             }}
           >
             {/* Dynamic Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-purple-900/70 to-black/90"></div>
-            
+         <div className="absolute inset-0 bg-gradient-to-br from-gray-600 via-gray-900/80 to-gray-600"></div>
+
             {/* Animated Gradient Orbs */}
             <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-gradient-to-r from-blue-400/30 to-purple-600/30 rounded-full blur-xl animate-pulse"></div>
             <div className="absolute bottom-1/3 right-1/4 w-24 h-24 bg-gradient-to-r from-purple-400/20 to-pink-600/20 rounded-full blur-xl animate-pulse delay-1000"></div>

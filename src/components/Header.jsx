@@ -13,7 +13,7 @@ const Header = ({ title, linkTitle, linkHref }) => {
       }}
     >
       {/* Blue Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-purple-900/70 to-black/90"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-gray-500 via-gray-800/80 to-gray-600"></div>
             
       {/* Content */}
       <div className="relative z-10 px-4 max-w-4xl mx-auto">
