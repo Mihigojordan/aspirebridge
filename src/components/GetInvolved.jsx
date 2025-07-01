@@ -1,42 +1,66 @@
 import React from 'react';
-import Header from "../components/Header";
-import { CheckCircle2 } from 'lucide-react'
+import { CheckCircle2 } from 'lucide-react';
+
 const GetInvolved = () => {
-    const span = ' text-lg text-gray-700 font-semibold';
+    const featureItems = [
+        {
+            title: "Volunteer Opportunities",
+            description: "How people can help",
+            icon: <CheckCircle2 className="text-xl mr-2 text-blue-500" />
+        },
+        {
+            title: "Partnership",
+            description: "Collaborate with businesses, NGOs and Churches",
+            icon: <CheckCircle2 className="text-xl mr-2 text-blue-500" />
+        },
+        {
+            title: "Donate",
+            description: "Support through financial contributions or sponsorships",
+            icon: <CheckCircle2 className="text-xl mr-2 text-blue-500" />
+        },
+        {
+            title: "Success Stories",
+            description: "Testimonials and stories from those impacted",
+            icon: <CheckCircle2 className="text-xl mr-2 text-blue-500" />
+        }
+    ];
 
     return (
-        <div 
-            className="gap-4 flex flex-col items-center bg-cover bg-fixed relative w-[100%] m-auto rounded-lg"
-            style={{ backgroundImage: `url(${Header.imageUrl})` }}  // Assuming the image is passed from the header component
+        <section 
+            className="relative w-full min-h-[400px] flex items-center justify-center rounded-lg overflow-hidden"
+            aria-label="Get Involved Section"
         >
-            <div className="absolute inset-0 bg-slate-400"></div>  {/* Dark gradient overlay */}
+            {/* Gradient background */}
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700"></div>
             
-            <div className="relative z-10 p-10 text-center text-white rounded-2xl">
-                <h1 className='text-3xl font-bold'>Get Involved</h1>
-                <div className="flex w-full flex-col text-left lg:flex-row justify-around mt-6">
-                    <div className="flex gap-2 flex-col mr-40">
-                        <div className="md:flex items-center mb-5">
-                            <CheckCircle2 className="text-xl mr-2 text-blue-500 " />
-                            <p className={span}> Volunteer Opportunities: </p> How people can help.
+            {/* Subtle pattern overlay */}
+            <div className="absolute inset-0 opacity-10 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgdmlld0JveD0iMCAwIDYwIDYwIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4yIj48cGF0aCBkPSJNMzYgMzRjMC0yLjIgMS44LTQgNC00czQgMS44IDQgNC0xLjggNC00IDQtNC0xLjgtNC00eiIvPjwvZz48L2c+PC9zdmc+')]"></div>
+            
+            <div className="relative z-10 w-full max-w-6xl px-4 py-16 sm:px-6 lg:px-8 text-white">
+                <h1 className='text-4xl font-bold text-center mb-12'>
+                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-purple-200">
+                        Get Involved
+                    </span>
+                </h1>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+                    {featureItems.map((item, index) => (
+                        <div 
+                            key={index} 
+                            className="flex items-start p-6 bg-white/10 backdrop-blur-md rounded-xl hover:bg-white/20 transition-all duration-300 border border-white/20 hover:border-white/30"
+                        >
+                            <span className="mt-1">{item.icon}</span>
+                            <div>
+                                <h3 className="text-xl font-semibold mb-2 text-white">
+                                    {item.title}
+                                </h3>
+                                <p className="text-gray-200">{item.description}</p>
+                            </div>
                         </div>
-                        <div className="md:flex items-center">
-                            <CheckCircle2 className="text-xl mr-2 text-blue-500" />
-                            <p className={span}> Partnership: </p> Collaborate with businesses, NGOs and Churches.
-                        </div>
-                    </div>
-                    <div className="flex gap-2 flex-col">
-                        <div className="md:flex items-center mb-5">
-                            <CheckCircle2 className="text-xl mr-2 text-blue-500" />
-                            <p className={span}>Donate: </p> Support through financial contributions or sponsorships.
-                        </div>
-                        <div className="md:flex items-center">
-                            <CheckCircle2 className="text-xl mr-2 text-blue-500" />
-                            <p className={span}> Success Stories: </p> Testimonials and stories from those impacted.
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

@@ -4,8 +4,12 @@ import GetInvolved from '../components/GetInvolved';
 import blogs from '../BlogList/Blogs';
 import BlogCard from '../components/BlogCard';
 import image from '../assets/image.avif';
-
+import { useEffect } from 'react';
 function NewsAndBlog() {
+
+      useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div>
       <Header
@@ -23,7 +27,7 @@ function NewsAndBlog() {
         )}
       </div>
 
-      <GetInvolved />
+    
     </div>
   );
 }

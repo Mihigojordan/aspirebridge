@@ -7,7 +7,7 @@ import TopHeader from '../components/TopHeader'
 function LandingLayout() {
   return (
     <div>
-        <TopHeader />
+
          <Navbar />
          <Outlet />
         <Footer /> 

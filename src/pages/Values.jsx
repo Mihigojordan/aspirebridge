@@ -4,12 +4,17 @@ import { Link } from "react-router-dom";
 import OurValues from '../components/OurValues'
 import WhatWedo from '../components/WhatWedo'
 import WeShall from '../components/WeShall'
+import { useEffect } from "react";
 
 import image from '../assets/image.avif'
 import GetInvolved from "../components/GetInvolved";
 
 
 function Values() {
+      useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+    
   return (
     <>
       <Header
