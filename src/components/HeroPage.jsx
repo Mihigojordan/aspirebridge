@@ -122,7 +122,7 @@ function HeroPage() {
 
                       className="group border-2 border-gradient bg-gradient-to-r from-transparent to-transparent hover:from-blue-500/10 hover:to-purple-600/10 border-blue-400 hover:border-purple-400 text-white font-bold cursor-pointer py-3 px-8 rounded-full transition-all duration-300 hover:scale-105 backdrop-blur-sm"
                     >
-                      View News And Blogs
+                      View News And Blog
                     </Link>
                   </div>
                 </div>
