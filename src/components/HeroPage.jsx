@@ -4,6 +4,7 @@ import Image1 from '../assets/static/hero.jpg';
 
 import Image2 from '../assets/static/women.jpg';
 import Image3 from '../assets/static/image3.jpg';
+import { Link } from "react-router-dom";
 // Sample images - replace with your actual images
 const slides = [
   {
@@ -110,18 +111,19 @@ function HeroPage() {
                   </p>
                   
                   <div className="button-section space-x-4 animate-slideUp delay-500">
-                    <button 
-                      onClick={() => window.location.href = '/about'}
+                    <Link to='/about'
+               
                       className="group bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-bold py-3 px-8 rounded-full cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25"
-                    >
+                >
                       <span className="relative z-10">Explore More</span>
-                    </button>
-                    <button 
-                      onClick={() => window.location.href = '/news-blogs'}
+                    </Link>
+                    <Link 
+                    to='/news-blogs'
+
                       className="group border-2 border-gradient bg-gradient-to-r from-transparent to-transparent hover:from-blue-500/10 hover:to-purple-600/10 border-blue-400 hover:border-purple-400 text-white font-bold cursor-pointer py-3 px-8 rounded-full transition-all duration-300 hover:scale-105 backdrop-blur-sm"
                     >
                       View News And Blogs
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>
