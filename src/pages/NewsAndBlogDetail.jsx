@@ -126,17 +126,41 @@ function NewsAndBlogDetail() {
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-4">
                       <span className="text-gray-600 text-sm">Share this article:</span>
-                      <div className="flex space-x-2">
-                        <button className="p-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-                          <span className="text-xs">Facebook</span>
-                        </button>
-                        <button className="p-2 bg-blue-400 text-white rounded-lg hover:bg-blue-500 transition-colors">
-                          <span className="text-xs">Twitter</span>
-                        </button>
-                        <button className="p-2 bg-blue-800 text-white rounded-lg hover:bg-blue-900 transition-colors">
-                          <span className="text-xs">LinkedIn</span>
-                        </button>
-                      </div>
+                   <div className="flex space-x-2">
+  <a
+    href="https://www.facebook.com/people/AspireBridge-Rwanda/61576748455206/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="p-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+  >
+    <span className="text-xs">Facebook</span>
+  </a>
+  <a
+    href="https://x.com/AspirebridgeR"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="p-2 w-20 text-center bg-black text-white rounded-lg hover:bg-gray-800 transition-colors"
+  >
+    <span className="text-xs">X</span>
+  </a>
+  <a
+    href="https://www.linkedin.com/company/aspirebridgerwanda"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="p-2 bg-gradient-to-r from-pink-500 to-yellow-500 text-white rounded-lg hover:opacity-90 transition-opacity"
+  >
+    <span className="text-xs">Instagram</span>
+  </a>
+  <a
+    href="https://linkedin.com/in/YourPage"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="p-2 bg-blue-800 text-white rounded-lg hover:bg-blue-900 transition-colors"
+  >
+    <span className="text-xs">LinkedIn</span>
+  </a>
+</div>
+
                     </div>
                   </div>
                 </div>
