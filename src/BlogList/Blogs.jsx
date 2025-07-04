@@ -50,6 +50,25 @@ import Ablog4 from '../assets/A4.jpg';
 import Ablog5 from '../assets/A5.jpg';
 
 
+import BlogImage1 from '../assets/blog1.jpg';
+
+import BlogImage2 from '../assets/blog2.jpg';
+
+import BlogImage3 from '../assets/blog3.jpg';
+
+import BlogImage4 from '../assets/blog4.jpg';
+
+import BlogImage5 from '../assets/blog5.jpg';
+
+import BlogImage6 from '../assets/blog6.jpg';
+
+import BlogImage7 from '../assets/blog7.jpg';
+
+import BlogImage8 from '../assets/blog8.jpg';
+
+
+
+
 
 
 
@@ -397,7 +416,97 @@ const blogs = [
       <img src={Ablog3} alt="Business Planning Session" className="rounded-lg shadow-md w-full h-40 object-cover" />
     </div>,
   ],
+},
+{
+  id: '6',
+  title: 'Sewing Hope: A Journey of Empowerment Through Tailoring Skills',
+  image: BlogImage1,
+  description:
+    'AspireBridge Rwanda visits tailoring students to encourage skill-building, share stories, and inspire lasting change through social and economic empowerment.',
+  fullContent: [
+    <section key="intro" className="space-y-4">
+      <p>
+        At <strong>AspireBridge Rwanda</strong>, we are driven by one mission: to equip the youth and young mothers of Rwanda with practical skills that empower them to take charge
+        of their future. Recently, our team had the joy of visiting one of our tailoring students—an incredibly determined young woman who is mastering the craft of sewing with the
+        goal of uplifting her life and her community.
+      </p>
+      <p>
+        This field visit was about more than checking on progress; it was a heartfelt moment to connect, reflect, share stories, and celebrate how vocational skills are transforming lives
+        from the inside out.
+      </p>
+    </section>,
+
+    <section key="gallery-1" className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+      <img src={BlogImage2} alt="Tailoring session in progress" className="rounded-xl shadow-md w-full h-80 object-cover" />
+      <img src={BlogImage3} alt="AspireBridge Rwanda interacting with the student" className="rounded-xl shadow-md w-full h-80 object-cover" />
+    </section>,
+
+    <section key="personal-story" className="space-y-4">
+      <p>
+        During the session, our student shared her story before joining AspireBridge. “I didn’t know where I was headed,” she admitted. “I had ideas but no way to make them real.
+        I had dreams but no skills to turn them into something meaningful.” Now, thanks to our tailoring training program, she’s on a journey of both personal and professional growth.
+      </p>
+      <blockquote className="italic border-l-4 border-blue-500 pl-4 text-gray-600">
+        “Now, every stitch I make reminds me I’m sewing my future—one where I own a business, inspire other girls, and make my family proud.”
+      </blockquote>
+    </section>,
+
+    <section key="impact" className="space-y-4 mt-6">
+      <p>
+        Our conversation also delved into what she hopes to achieve after graduating. She dreams of starting her own fashion workshop, employing other girls from her village,
+        and eventually teaching others. She believes that her skill is not just a means of making money, but a way to bring dignity and confidence to women in her community.
+      </p>
+      <p>
+        These conversations are a vital part of our program because they reaffirm our mission: <strong>to build lasting change through localized, skill-based empowerment</strong>.
+        From tailoring and agriculture to entrepreneurship and tech, AspireBridge Rwanda is creating future-ready changemakers.
+      </p>
+    </section>,
+
+    <section key="gallery-2" className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+      <img src={BlogImage4} alt="Sewing tools and training equipment" className="rounded-xl shadow-md w-full h-80 object-cover" />
+      <img src={BlogImage5} alt="Student focusing on garment stitching" className="rounded-xl shadow-md w-full h-80 object-cover" />
+    </section>,
+
+    <section key="stats-and-highlights" className="space-y-6">
+      <h2 className="text-2xl font-semibold">📈 Program Highlights</h2>
+      <ul className="list-disc pl-6 space-y-2 text-gray-700">
+        <li>Over <strong>150 young women</strong> enrolled in tailoring and vocational training across 4 districts</li>
+        <li><strong>92% completion rate</strong> of basic tailoring modules within 8 weeks</li>
+        <li>Includes training in sewing machine operations, measurements, pattern creation, and quality finishing</li>
+        <li>Supplemented by sessions on <strong>entrepreneurship, bookkeeping, and customer relations</strong></li>
+        <li>Follow-up and mentorship system with local community leaders and volunteers</li>
+      </ul>
+    </section>,
+
+    <section key="social-proof" className="mt-10">
+      <p>
+        Every time we visit our students, we are reminded that skills are powerful—but belief and support are even more powerful. Our tailoring student is now a role model in her
+        area, and her story is inspiring others to enroll and start their own journey with AspireBridge Rwanda.
+      </p>
+      <p className="mt-4 font-semibold">
+        With a needle and thread, she is not just sewing clothes—<strong>she is stitching a brighter future</strong>.
+      </p>
+    </section>,
+
+    <h2 key="section-title" className="text-xl font-semibold mt-10 mb-4">📸 Captured Moments from the Visit</h2>,
+    <div key="session-grid" className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+      <img src={BlogImage6} alt="Student Portrait" className="rounded-lg shadow-md w-full h-40 object-cover" />
+      <img src={BlogImage7} alt="Measuring Fabric" className="rounded-lg shadow-md w-full h-40 object-cover" />
+      <img src={BlogImage8} alt="Sewing Demo" className="rounded-lg shadow-md w-full h-40 object-cover" />
+      <img src={BlogImage3} alt="Group Discussion" className="rounded-lg shadow-md w-full h-40 object-cover" />
+    </div>,
+
+    <section key="call-to-action" className="bg-blue-50 border border-blue-100 p-6 rounded-xl shadow mt-8">
+      <h3 className="text-lg font-semibold mb-2 text-blue-700">🌍 Want to Support?</h3>
+      <p className="text-gray-700">
+        AspireBridge Rwanda is actively seeking partners, donors, and volunteers to support our skills-based empowerment programs. Whether you're a professional tailor,
+        mentor, or simply passionate about youth development—<strong>you can make a difference</strong>.
+      </p>
+     
+    </section>,
+  ],
 }
+
 
 
 ];
