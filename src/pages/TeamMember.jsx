@@ -3,7 +3,6 @@ import Header from "../components/Header";
 import { Link } from "react-router-dom";
 
 import image1 from "../assets/fabien.jpg";
-import image2 from "../assets/mihigo.png";
 import image from '../assets/image.avif'
 import { useEffect } from "react";
 
@@ -19,12 +18,7 @@ const teamMembers = [
     role: "Executive Director",
     img:image1,
   },
-    {
-    id: 2,
-    username: "MIHIGO Prince Jordan ",
-    role: "Communication Officer",
-    img:image2,
-  },
+
 
 ];
 
