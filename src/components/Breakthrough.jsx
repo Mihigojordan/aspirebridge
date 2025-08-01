@@ -95,7 +95,7 @@ export const Breakthrough = () => {
 
             {/* Programs Section */}
             <div className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-                <div className="max-w-7xl mx-auto">
+                <div className="max-w-8xl mx-auto">
                     <h2 className="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl mb-4">
                         Our Empowerment Programs
                     </h2>

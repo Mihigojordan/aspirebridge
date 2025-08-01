@@ -14,9 +14,9 @@ function Footer() {
 
   const supportLinks = [
     { name: "Contact Us", path: "/contact" },
-    { name: "Help & FAQs", path: "/help" },
-    { name: "Terms & Conditions", path: "/terms" },
-    { name: "Privacy Policy", path: "/privacy" }
+    { name: "About Us", path: "/about" },
+    { name: "Our Gallery", path: "/gallery" },
+    { name: "News & Updates", path: "/news" }
   ];
 
   const contactInfo = [
