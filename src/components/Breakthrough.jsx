@@ -77,21 +77,27 @@ export const Breakthrough = () => {
                 </div>
             </div>
 
-            {/* Gallery Section */}
-            <div className="grid grid-cols-1 md:grid-cols-4 h-auto md:h-96">
-                {images.map((image, i) => (
-                    <div key={i} className="group relative overflow-hidden h-48 md:h-full">
-                        <img 
-                            src={image} 
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
-                            alt="Our programs in action"
-                        />
-                        <div className="absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <span className="text-white font-bold text-lg">Success Story #{i+1}</span>
-                        </div>
-                    </div>
-                ))}
+ <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 p-2">
+    {images.map((image, i) => (
+        <div 
+            key={i} 
+            className="group relative overflow-hidden h-64 rounded-lg shadow-lg border-2 border-gray-300 bg-gradient-to-br from-gray-50 to-gray-100 transition-all duration-300 hover:shadow-xl hover:border-gray-400"
+        >
+            <div className=" h-[400px]">
+                <img 
+                    src={image} 
+                    className="w-full h-full object-cover rounded-md transition-transform duration-500 group-hover:scale-110" 
+                    alt="Our programs in action"
+                />
             </div>
+            <div className="absolute inset-2 bg-gradient-to-t from-gray-900/70 via-gray-600/30 to-transparent rounded-md flex items-end justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span className="text-white font-bold text-lg mb-4 px-3 py-1 bg-gray-600/80 rounded-full backdrop-blur-sm">
+                    Success Story #{i+1}
+                </span>
+            </div>
+        </div>
+    ))}
+</div>
 
             {/* Programs Section */}
             <div className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
