@@ -3,6 +3,8 @@ import Header from "../components/Header";
 import { Link } from "react-router-dom";
 
 import image1 from "../assets/fabien.jpg";
+
+import image2 from "../assets/lucie.jpg";
 import image from '../assets/image.avif'
 import { useEffect } from "react";
 
@@ -17,6 +19,12 @@ const teamMembers = [
     username: "Mr. Sibomana Fabien",
     role: "Executive Director",
     img:image1,
+  },
+    {
+    id: 2,
+    username: "Numukobwa Lucie ",
+    role: "Administrative & Finance Officer",
+    img:image2,
   },
 
 

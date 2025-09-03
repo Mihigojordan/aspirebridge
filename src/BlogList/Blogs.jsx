@@ -66,6 +66,24 @@ import BlogImage7 from '../assets/blog7.jpg';
 
 import BlogImage8 from '../assets/blog8.jpg';
 
+import Tech1 from '../assets/tech1.jpg';
+
+import Tech2 from '../assets/tech2.jpg';
+
+import Tech3 from '../assets/tech3.jpg';
+
+import Tech4 from '../assets/tech4.jpg';
+
+import Tech5 from '../assets/tech5.jpg';
+
+import Tech6 from '../assets/tech6.jpg';
+
+import Tech7 from '../assets/tech7.jpg';
+
+import Tech8 from '../assets/tech8.jpg';
+import Tech9 from '../assets/tech9.jpg';
+
+
 
 
 
@@ -505,7 +523,66 @@ const blogs = [
      
     </section>,
   ],
+},
+{
+  id: '7',
+  title: 'Empowering Women and Youth Through Digital Literacy',
+  image:Tech1,
+  description:
+    'AspireBridge Rwanda is equipping women, youth, and young mothers with digital literacy skills—unlocking access to opportunities, services, and self-reliance in a technology-driven world.',
+  fullContent: [
+    <p key="p1">
+      At <strong>AspireBridge Rwanda</strong>, we believe empowerment begins with knowledge and the ability to adapt to change. In today’s world, <strong>digital literacy</strong> is no longer a luxury but a necessity. Our recent initiative focused on training women, youth, and young mothers in essential digital skills—equipping them to harness technology for <strong>education, entrepreneurship, and sustainable livelihoods</strong>.
+    </p>,
+
+    <p key="p2">
+      Through this program, participants gained hands-on experience in <strong>basic computer skills, internet navigation, online communication, and productivity tools</strong>. More than just technical skills, the training emphasized the importance of digital confidence—helping participants see technology as a bridge to opportunities and an enabler of self-reliance.
+    </p>,
+
+    <div key="images-1" className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+      <img src={Tech2} alt="Digital Training 1" className="rounded-lg shadow-md w-full h-72 object-cover" />
+      <img src={Tech3} alt="Digital Training 2" className="rounded-lg shadow-md w-full h-72 object-cover" />
+    </div>,
+
+    <p key="p3">
+      The program also encouraged participants to adopt a mindset of <strong>innovation and problem-solving</strong>. They were challenged to rethink how digital tools can be applied in everyday life—from running small businesses and accessing healthcare information to connecting with global knowledge resources.
+    </p>,
+
+    <p key="p4">
+      Beyond personal use, participants discovered how digital literacy can open <strong>multiple pathways to income</strong>. These included <strong>freelancing, e-commerce, digital marketing, online tutoring, and remote services</strong>. By mastering these tools, they are better positioned to compete in both local and international job markets.
+    </p>,
+
+    <div key="images-2" className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+      <img src={Tech4} alt="Hands-on Digital Session 1" className="rounded-lg shadow-md w-full h-72 object-cover" />
+      <img src={Tech5} alt="Hands-on Digital Session 2" className="rounded-lg shadow-md w-full h-72 object-cover" />
+    </div>,
+
+    <p key="p5">
+      Collaboration was another cornerstone of the program. Participants formed <strong>digital savings groups and peer-learning circles</strong>, ensuring that knowledge-sharing and support systems continue long after the training. This community-driven approach fosters accountability and collective progress.
+    </p>,
+
+    <p key="p6" className="italic">
+      “Before this training, I only used my phone for calls and social media. Now I know it can be a tool for learning, earning, and supporting my family.” — Participant testimonial
+    </p>,
+
+    <p key="p7">
+      The training concluded with inspiring presentations of <strong>digital business ideas</strong> created by participants. From e-commerce startups to online tutoring initiatives, their projects reflected creativity, resilience, and a strong belief in the power of technology to change lives. Each graduate left with more than just digital skills—they carried a <strong>roadmap for the future</strong>.
+    </p>,
+
+    <p key="p8">
+      At AspireBridge Rwanda, our mission is to build <strong>self-sustaining communities</strong> by preparing individuals for the realities of a digital economy. With every program, we are not just teaching skills—we are nurturing confidence, independence, and hope. Because when women and youth are digitally empowered, entire communities thrive.
+    </p>,
+
+    <h2 key="session-title" className="text-xl font-semibold mt-10 mb-4">Session Highlights</h2>,
+    <div key="session-grid" className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+      <img src={Tech6} alt="Digital Skills Training" className="rounded-lg shadow-md w-full h-40 object-cover" />
+      <img src={Tech7} alt="Online Collaboration Workshop" className="rounded-lg shadow-md w-full h-40 object-cover" />
+      <img src={Tech8} alt="Youth Learning Session" className="rounded-lg shadow-md w-full h-40 object-cover" />
+      <img src={Tech9} alt="Project Presentation" className="rounded-lg shadow-md w-full h-40 object-cover" />
+    </div>,
+  ],
 }
+
 
 
 
